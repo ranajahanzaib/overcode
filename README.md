@@ -1,83 +1,20 @@
-# NPM Package Template
+# Overcode - A JavaScript library
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
-Create NPM Packages instantly with this open-source template repo.
+Yet another JavaScript library for the web.
 
 # Get Started
 
-To use this repo template properly, _please make sure you update the following files in your repo._
-
-```
-./
-  AUTHORS
-  MAINTAINERS
-
-  lib/
-    index.js    // Your NPM Package Code
+```shell
+npm i overcode
 ```
 
-### **Step 1** - Login to NPM
-
-To get started, you must have an account with [npmjs.com](https://www.npmjs.com/). If you don't have an account, you can sign up for one here: [https://www.npmjs.com/signup](https://www.npmjs.com/signup). Then, login into your npm account using CLI.
+OR
 
 ```shell
-npm login
+yarn add overcode
 ```
-
-### **Step 2** - Update `package.json`
-
-Update `package.json` with your NPM package information. Please make sure to update the following fields:
-
-File: `package.json`
-
-```json
-{
-  "name": "unique-pkg-name",
-  "author": "ranajahanzaib",
-  "version": "1.0.0"
-}
-```
-
-**Tip:** _[Do a Quick Search](https://www.npmjs.com/search?q=isMyUniquePkgNameAvailable) to find a package name that's unique and available._
-
-### **Step 3** - Deploy
-
-Once, you have made the required changes, you can deploy your package to [NPM Registry](https://www.npmjs.com/) by running the following command in CLI.
-
-```shell
-npm publish
-```
-
-### **Step 4** - Update
-
-To update the NPM Package, increase the version number in `package.json`.
-
-```json
-{
-  "version": "1.0.1"
-}
-```
-
-And run the following command in CLI to publish an update for your NPM package.
-
-```shell
-npm publish
-```
-
-### **Step 5** - Install & Use the new NPM Package.
-
-Once, the package is published, you can run the following command in CLI to install the package to any Nodejs project:
-
-```shell
-npm i npm-pkg
-
- - OR -
-
-yarn add npm-pkg
-```
-
-Replace `npm-pkg` with the name of your NPM package.
 
 # Contributing
 
