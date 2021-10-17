@@ -4,6 +4,7 @@
   "private": false,
   "license": "MIT",
   "authors": "ranajahanzaib",
+  "type": "module",
   "files": [
     "lib"
   ],
