@@ -1,6 +1,8 @@
 # Overcode - A JavaScript library
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
+[![Build](https://github.com/ranajahanzaib/api/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/ranajahanzaib/api/actions/workflows/npm-publish.yml)
 
 Yet another JavaScript library for the web.
 
