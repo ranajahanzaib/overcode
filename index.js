@@ -5,8 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import { isEmpty, isNotEmpty } from "./checks/isEmpty.js";
-import { random } from "./number/index.js";
+import { isEmpty, isNotEmpty } from "./lib/checks/isEmpty.js";
+import { random } from "./lib/number/index.js";
 
 export const overcode = {
   random,
