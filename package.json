@@ -1,13 +1,10 @@
 {
   "name": "overcode",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": false,
   "license": "MIT",
   "authors": "Rana Jahanzaib (https://ranajahanzaib.com)",
   "type": "module",
-  "files": [
-    "lib"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ranajahanzaib/overcode.git"
