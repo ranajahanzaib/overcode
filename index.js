@@ -6,6 +6,7 @@
  */
 
 import { isEmpty, isNotEmpty } from "./lib/checks/isEmpty.js";
+import { isNull, isNotNull } from "./lib/checks/isNull.js";
 import { random } from "./lib/number/index.js";
 
 export const overcode = {
@@ -13,9 +14,13 @@ export const overcode = {
   check: {
     ifEmpty: isEmpty,
     ifNotEmpty: isNotEmpty,
+    ifNull: isNull,
+    ifNotNull: isNotNull,
   },
   isEmpty,
   isNotEmpty,
+  isNull,
+  isNotNull,
 };
 
 export { random, isEmpty, isNotEmpty };
