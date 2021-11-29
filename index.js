@@ -9,6 +9,7 @@ import { isEmpty, isNotEmpty } from "./lib/checks/isEmpty.js";
 import { isNull, isNotNull } from "./lib/checks/isNull.js";
 import { is } from "./lib/checks/is.js";
 import { random } from "./lib/number/index.js";
+import either from "./lib/randoms/either.js";
 
 export const overcode = {
   random,
@@ -23,7 +24,8 @@ export const overcode = {
   isNull,
   isNotNull,
   is,
+  either,
 };
 
-export { random, is, isEmpty, isNotEmpty, isNotNull, isNull };
+export { random, is, isEmpty, isNotEmpty, isNotNull, isNull, either };
 export default overcode;
